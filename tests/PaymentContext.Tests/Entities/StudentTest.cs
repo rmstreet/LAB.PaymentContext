@@ -10,9 +10,10 @@ namespace PaymentContext.Tests.Entities
         [Fact]
         public void AdicionarAssinatura()
         {
-            var subscription = new Subscription(null);
-            var student = new Student(new Name("Romulo", "Martins"), new Document("1234567890", EDocumentType.CPF), new Email("contato@romulomartins.net"));
-            student.AddSubscription(subscription);
+            //var name = new Name("Romulo", "Martins");
+            //var subscription = new Subscription(null);
+            //var student = new Student(name, new Document("1234567890", EDocumentType.CPF), new Email("contato@romulomartins.net"));
+            //student.AddSubscription(subscription);
         }
     }
 }
